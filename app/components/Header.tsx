@@ -56,7 +56,9 @@ const Header = () => {
               <a href="#contact">Contact Me</a>
             </li>
             <li className="hover:transform-[scale(1.08)] duration-200">
-              <a href="#">Resume</a>
+              <a href="/resume.pdf" download="Rishikant Resume.pdf">
+                Resume
+              </a>
             </li>
             <label className="switch">
               <input onChange={handleChange} type="checkbox" id="toggle-dark" />

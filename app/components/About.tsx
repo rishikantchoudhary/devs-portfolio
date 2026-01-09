@@ -12,13 +12,13 @@ const About = () => {
       <div className="m-8 lg:flex-3 lg:py-6 text-base sm:text-lg dark:text-white">
         <p>Hello,</p>
         <p>
-          I am Rishikant A web developer is a programmer who develops World Wide
-          Web applications using a client–server model. The applications
-          typically use HTML, CSS, and JavaScript in the client, and any
-          general-purpose programming language in the server. HTTP is used for
-          communications between client and server. Lorem ipsum dolor sit, amet
-          consectetur adipisicing elit. Nesciunt, eligendi necessitatibus.
-          Aliquam placeat velit laborum? At cum voluptatem a iusto.
+          I’m a Full Stack Developer who enjoys the entire creative process,
+          from designing interfaces in Figma to coding complex backends with
+          Next.js and Python. I’ve honed my skills by building and shipping
+          diverse end-to-end projects, focusing on clean code and real-world
+          functionality rather than just theory. I’m always learning and looking
+          for the next challenge. I’m open to any opportunities or
+          collaborations, so feel free to reach out!
         </p>
       </div>
     </div>

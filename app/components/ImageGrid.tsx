@@ -4,6 +4,8 @@ import figma from '../../public/figma.png'
 import html from '../../public/html.png'
 import css from '../../public/css.png'
 import js from '../../public/js.png'
+import ts from '../../public/ts.png'
+import tailwind from '../../public/tailwind.png'
 import vite from '../../public/Vite.js.png'
 import reactjs from '../../public/react.png'
 import nextjs from '../../public/Next.js.png'
@@ -22,7 +24,9 @@ const imageArr = [
   { src: html, alt: 'HTML' },
   { src: css, alt: 'CSS' },
   { src: js, alt: 'JavaScript' },
+  { src: ts, alt: 'TypeScript' },
   { src: vite, alt: 'Vite' },
+  { src: tailwind, alt: 'Tailwind CSS' },
   { src: reactjs, alt: 'ReactJS' },
   { src: nextjs, alt: 'NextJS' },
   { src: flask, alt: 'Flask' },
