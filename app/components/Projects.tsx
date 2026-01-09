@@ -64,7 +64,7 @@ const projectsArr = [
     description: `A responsive personal portfolio built with Next.js, TypeScript, and Tailwind CSS to professionally showcase my full-stack projects and technical skills.`,
     stack: ['NextJS', 'TypeScript', 'Tailwind CSS'],
     links: {
-      site: 'https://www.google.com/',
+      site: 'https://rishis-dev-portfolio.vercel.app/',
       github: 'https://github.com/rishikantchoudhary/devs-portfolio',
       figma:
         'https://www.figma.com/design/qQPH0xbXfygRpQKk0P2HhJ/Personal-Portfolio?node-id=23-19&t=PitPFHvzad4tVYEr-1',

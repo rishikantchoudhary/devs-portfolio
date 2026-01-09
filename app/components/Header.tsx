@@ -56,7 +56,7 @@ const Header = () => {
               <a href="#contact">Contact Me</a>
             </li>
             <li className="hover:transform-[scale(1.08)] duration-200">
-              <a href="/resume.pdf" download="Rishikant Resume.pdf">
+              <a href="/Rishikant_Resume.pdf" download="Rishikant_Resume.pdf">
                 Resume
               </a>
             </li>
