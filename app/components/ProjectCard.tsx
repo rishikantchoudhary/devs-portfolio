@@ -28,7 +28,7 @@ const ProjectCard = ({
   linkPngs,
 }: TechStackProps) => {
   return (
-    <div className="mx-auto p-5 max-w-80 sm: max-w-auto bg-bg dark:bg-bg-dark text-text-blue dark:text-white rounded-2xl hover:scale-105 duration-200 hover:shadow-2xl hover:cursor-pointer shadow-xl dark:shadow-stone-950">
+    <div className="mx-auto p-5 max-w-80 sm: max-w-auto bg-bg dark:bg-bg-dark text-text-blue dark:text-white rounded-2xl hover:scale-105 duration-200 hover:shadow-2xl shadow-xl dark:shadow-stone-950">
       <h3 className="pb-3 font-semibold text-4xl md:text-3xl">
         {projectDetail.name}
       </h3>
