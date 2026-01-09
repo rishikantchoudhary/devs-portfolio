@@ -54,7 +54,7 @@ Follow these steps to run the project locally on your machine.
 1. **Clone the repository:**
 
 ```bash
-git clone [https://github.com/rishikantchoudhary/devs-portfolio.git](https://github.com/rishikantchoudhary/devs-portfolio.git)
+git clone https://github.com/rishikantchoudhary/devs-portfolio.git
 cd devs-portfolio
 ```
 
