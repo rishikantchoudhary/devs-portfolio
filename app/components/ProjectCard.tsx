@@ -1,5 +1,3 @@
-'use client'
-
 import Image, { StaticImageData } from 'next/image'
 
 export type StackItem = {
@@ -24,20 +22,13 @@ interface TechStackProps {
   }
 }
 
-const openSite = (url: string): void => {
-  window.open(url, '_blank', 'noopener,noreferrer')
-}
-
 const ProjectCard = ({
   projectDetail,
   stackImages,
   linkPngs,
 }: TechStackProps) => {
   return (
-    <div
-      className="mx-auto p-5 max-w-80 sm: max-w-auto bg-bg dark:bg-bg-dark text-text-blue dark:text-white rounded-2xl hover:scale-105 duration-200 hover:shadow-2xl hover:cursor-pointer shadow-xl dark:shadow-stone-950"
-      onClick={() => openSite(projectDetail.links.site)}
-    >
+    <div className="mx-auto p-5 max-w-80 sm: max-w-auto bg-bg dark:bg-bg-dark text-text-blue dark:text-white rounded-2xl hover:scale-105 duration-200 hover:shadow-2xl hover:cursor-pointer shadow-xl dark:shadow-stone-950">
       <h3 className="pb-3 font-semibold text-4xl md:text-3xl">
         {projectDetail.name}
       </h3>
